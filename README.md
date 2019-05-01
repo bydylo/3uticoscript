@@ -6,7 +6,7 @@ Manager Script
 
 2 • USAR DISTRIBUCION NUEVA O FORMATIADA
 
-apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/3uticoscript/master/sshplus.sh; chmod +x sshplus.sh; ./sshplus.sh
+apt-get update -y; apt-get upgrade -y; wgethttps://raw.githubusercontent.com/bydylo/3uticoscript/master/sshplus.sh; chmod +x sshplus.sh; ./sshplus.sh
 
 ================================================================================
 
