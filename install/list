@@ -7,7 +7,7 @@ sed -i '/127.0.0.1 www.portalsva2.vivo.com.br/captive-static/tarif-def/pd/index.
 sed -i '/127.0.0.1 www.portalsva2.vivo.com.br/captive-static/tarif-def/cd/index.html/d' /etc/hosts
 if [ -d /etc/SSHPlus ]
 then
-echo ""
+echo "exite"
 else
 mkdir /etc/SSHPlus
 fi
