@@ -28,7 +28,8 @@ tput cnorm
 }
 echo ""
 vrs1=$(cat /bin/versao)
-vrs2=$(wget -qO- https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/versao | sed -n '1 p')
+vrs2=$(wget -qO- 
+https://raw.githubusercontent.com/bydylo/3uticoscript/master/versao | sed -n '1 p')
 [[ ! -e /bin/versao ]] && rm -rf /bin/menu
 echo -e "                              \033[1;31mBy Crazy\033[1;36m"
 echo -e "   SSHPlus" | figlet
@@ -52,8 +53,8 @@ else
     echo ""
     echo -e "\033[1;32mAtualizando script..."
     sleep 3
-    wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/sshplus.sh 2>/dev/null
-    chmod +x sshplus.sh
+    wget https://raw.githubusercontent.com/bydylo/3uticoscript/master/sshplus.sh 2>/dev/null
+    chmod 777 sshplus.sh
     ./sshplus.sh
     clear
     echo -e "\033[1;32mSCRIPT ATUALIZADO COM SUCESSO\033[0m"
