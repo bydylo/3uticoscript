@@ -67,7 +67,7 @@ if [ -z "$name" ]; then
 fi
 IP=$(ip addr | grep 'inet' | grep -v inet6 | grep -vE '127\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | grep -o -E '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | head -1)
 if [[ "$IP" = "" ]]; then
-  IP=$(wget -qO- ipv4.icanhazip.com)
+  IP=$(wget -qO- ifconfig.co/ip)
 fi
 echo ""
 echo -ne "\033[1;36mPara continuar confirme seu IP \033[1;37m"; read -e -i $IP ipdovps
