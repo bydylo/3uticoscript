@@ -72,8 +72,6 @@ wget https://raw.githubusercontent.com/bydylo/3uticoscript/master/Modulos/sshmon
 chmod 777 /bin/sshmonitor
 wget https://raw.githubusercontent.com/bydylo/3uticoscript/master/Modulos/badvpn.sh -O /bin/badvpn > /dev/null 2>&1
 chmod 777 /bin/badvpn
-wget https://raw.githubusercontent.com/bydylo/3uticoscript/master/Modulos/tcpspeed.sh -O /bin/tcpspeed > /dev/null 2>&1
-chmod 777 /bin/tcpspeed
 wget https://raw.githubusercontent.com/bydylo/3uticoscript/master/Modulos/userbackup.sh -O /bin/userbackup > /dev/null 2>&1
 chmod 777 /bin/userbackup
 wget https://raw.githubusercontent.com/bydylo/3uticoscript/master/Modulos/blockt.sh -O /bin/blockt > /dev/null 2>&1
