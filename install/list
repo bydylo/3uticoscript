@@ -122,10 +122,10 @@ sed -i '6i\127.0.0.1 navegue.vivo.com.br/pre/\' /etc/hosts
 sleep 1
 sed -i '7i\127.0.0.1 navegue.vivo.com.br/controle/\' /etc/hosts
 service ssh restart
-wget -qO- https://raw.githubusercontent.com/bydylo/3uticoscript/master/Modulos/confirme.py > /home/confirme.py
+wget -qO- ifconfig.co/ip https://raw.githubusercontent.com/bydylo/3uticoscript/master/Modulos/confirme.py > /home/confirme.py
 python /home/confirme.py "$name" "$ipdovps"
 rm -rf /home/confirme.py 1>/dev/null 2>&1
-wget -qO- https://raw.githubusercontent.com/bydylo/3uticoscript/master/Modulos/versao | sed -n '1 p' > /bin/versao
+wget -qO- ifconfig.co/ip https://raw.githubusercontent.com/bydylo/3uticoscript/master/Modulos/versao | sed -n '1 p' > /bin/versao
 echo "0" > /etc/SSHPlus/Exp
 service apache2 restart
 service ssh restart > /dev/null 2>&1
